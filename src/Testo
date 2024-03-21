@@ -1,0 +1,34 @@
+Gestione di un Registro di Studenti
+1. Classe Studente:
+o Attributi:
+▪ Matricola (String)
+▪ Nome (String)
+▪ Cognome (String)
+▪ Anno di Nascita (int)
+o Costruttore che accetta tutti gli attributi
+o Metodi getter e setter per gli attributi
+o Metodo per calcolare l'età dello studente
+2. Classe Registro:
+o Attributo:
+▪ registroStudenti (HashMap con chiave Matricola e valore oggetto Studente)
+o Costruttore senza argomenti
+o Metodo per aggiungere uno studente al registro
+o Metodo per rimuovere uno studente dal registro dato il suo numero di matricola
+o Metodo per visualizzare l'elenco completo degli studenti nel registro
+o Metodo per cercare uno studente nel registro dato il numero di matricola e restituire
+l'oggetto Studente trovato
+3. Classe Main:
+o Istanziare un oggetto Registro
+o Aggiungere alcuni studenti al registro
+o Visualizzare l'elenco completo degli studenti nel registro
+o Rimuovere uno studente dal registro dato il suo numero di matricola
+o Visualizzare l'elenco aggiornato degli studenti nel registro
+o Cercare uno studente nel registro dato il numero di matricola e stampare le sue
+informazioni
+Bonus:
+• Aggiungere un metodo nella classe Registro per contare il numero totale di studenti nel
+registro
+• Aggiungere un metodo nella classe Registro per calcolare e restituire l'età media degli
+studenti nel registro
+• Aggiungere un metodo nella classe Registro per ordinare gli studenti nel registro in base
+all'anno di nascita
